@@ -1,4 +1,4 @@
-# SATPAD — 产品设计文档
+# Eulr — 产品设计文档
 
 > **XLayer 上基于 sat1 曲线机制的无许可代币发射台**
 
@@ -6,7 +6,7 @@
 
 ## 1. 产品定位
 
-SATPAD 是一个运行在 **XLayer 主网**的无许可代币发射台，任何人可以一键部署使用 **sat1 Bonding Curve** 机制的 ERC-20 代币。
+Eulr 是一个运行在 **XLayer 主网**的无许可代币发射台，任何人可以一键部署使用 **sat1 Bonding Curve** 机制的 ERC-20 代币。
 
 ### 核心特点
 
@@ -125,7 +125,7 @@ minted(okb) = K × (1 - e^(-okb/S))   // 累积铸造量
 
 #### Step 4 — 部署
 - 调用 sat1 Hook Deployer 工厂合约
-- Gas 费由创建者承担，**SATPAD 不收额外部署费**
+- Gas 费由创建者承担，**Eulr 不收额外部署费**
 - 部署成功后自动跳转到代币详情页
 
 ### 3.4 投资组合页（Portfolio）
@@ -139,7 +139,7 @@ minted(okb) = K × (1 - e^(-okb/S))   // 累积铸造量
 ## 4. 信息架构
 
 ```
-SATPAD
+Eulr
 ├── /                       发现页（Explore）
 │   ├── ?tab=new            最新发布
 │   ├── ?tab=trending       热度排行
@@ -167,7 +167,7 @@ SATPAD
 
 - 创建页和详情页均有曲线原理简介（可折叠）
 - 毕业条件在进度条旁明确说明
-- 新用户首次访问展示「SATPAD 与普通 Meme Launchpad 的区别」弹窗
+- 新用户首次访问展示「Eulr 与普通 Meme Launchpad 的区别」弹窗
 
 ### 5.3 无许可承诺
 
